@@ -31,7 +31,7 @@
 		}
 	?>
 	
-	<form action="panel_klienta.php" method="post">
+	<form action="usuwanie_klienta.php" method="post">
 	<table>
 		<b>Usuwanie:</b><br>
 		<tr>
@@ -42,11 +42,11 @@
 		
 		<tr>
 		<p>
-			<td><input type="submit" name="usun" value="Usun" /></td>
+			<td><input type="submit" name="usun" value="Usun" />
 		</p>
 		</tr>
 	</table>	
-	
+	<table>
 	</form>
 		<table width="500" align="center" border="1" bordercolor="#d5d5d5"  cellpadding="0" cellspacing="0">
         <tr>

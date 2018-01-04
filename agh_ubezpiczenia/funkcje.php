@@ -82,7 +82,7 @@
 					echo "BŁĄD: Nie można wykonać polecenia $zapytanie. " . mysqli_error($polaczenie);
 
 				mysqli_close($polaczenie);
-				header("Location: panel_klienta.php");
+				header("Location: usuwanie_klienta.php");
 			}
 
 ?>
