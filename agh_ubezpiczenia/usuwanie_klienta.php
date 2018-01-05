@@ -28,6 +28,10 @@
 					
 				echo "<br />";
 			}
+		}	
+		if ( isset( $_POST['menu'] ) )
+		{
+			header("Location: index.html");
 		}
 	?>
 	
@@ -43,6 +47,7 @@
 		<tr>
 		<p>
 			<td><input type="submit" name="usun" value="Usun" />
+				<input type="submit" name="menu" value="Menu" /></td>
 		</p>
 		</tr>
 	</table>	

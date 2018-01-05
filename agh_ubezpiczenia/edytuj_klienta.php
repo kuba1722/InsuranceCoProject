@@ -81,6 +81,10 @@
 			header("Location: dane_klientow_wyswietl.php");
 
 		}
+		if ( isset( $_POST['menu'] ) )
+		{
+			header("Location: index.html");
+		}
 	?>
 	
 	<form action="edytuj_klienta.php" method="post">
@@ -141,7 +145,8 @@
 		<tr>
 		<p>
 			<td><input type="submit" name="edytuj" value="Edytuj" />
-				<input type="submit" name="zapisz" value="Zapisz" /></td>
+				<input type="submit" name="zapisz" value="Zapisz" />
+				<input type="submit" name="menu" value="Menu" /></td>
 		</p>
 		</tr>
 	</table>	

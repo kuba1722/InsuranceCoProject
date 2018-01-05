@@ -57,6 +57,10 @@
 				echo "<br />";
 			}
 		}
+		if ( isset( $_POST['menu'] ) )
+		{
+			header("Location: index.html");
+		}
 	?>
 	
 	<form action="dodaj_klienta.php" method="post">
@@ -111,7 +115,8 @@
 		
 		<tr>
 		<p>
-			<td><input type="submit" name="dodaj" value="Dodaj" /></td>
+			<td><input type="submit" name="dodaj" value="Dodaj" />
+				<input type="submit" name="menu" value="Menu" /></td>
 		</p>
 		</tr>
 	</table>	
